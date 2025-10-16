@@ -1,0 +1,32 @@
+body {
+   background: radial-gradient(ellipse at top, #16b68b, 5%, #021210 40%, #000000 100%);
+    color: #ffffff !important;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.topnav {
+    background-color: #021210;
+    overflow: hidden;
+}
+
+.topnav a {
+    min-height: 20px;
+    
+    float: right;
+    color: #16b68b;
+    text-align: center;
+    padding: 24px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ffffff;
+    color: #021210;
+}
+
+.topnav a.active {
+    background-color: #1fffbf;
+    color: #ffffff;
+}
