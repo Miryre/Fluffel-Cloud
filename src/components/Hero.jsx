@@ -26,7 +26,7 @@ const Hero = ({ weatherData, loading, error }) => {
         
         {/* Weather Card goes here */}
         <div className='flex-1 flex items-center'>
-          <WeatherCard />
+        <WeatherCard weatherData={weatherData} loading={loading} error={error} />
         </div>
       </div>
     </div>

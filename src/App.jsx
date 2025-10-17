@@ -48,6 +48,7 @@ const fetchWeather = async (cityName) => {
 // function that handles the search whis call the input form the navbar
     const handleSearch =(searchedCity) => {
         setCity(searchedCity);
+        fetchWeather(searchedCity);
         console.log('User searched for:', searchedCity);
     };    
 
