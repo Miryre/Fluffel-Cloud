@@ -1,7 +1,7 @@
 import React from 'react';
 import WeatherCard from './WeatherCard';
 
-const Hero = () => {
+const Hero = ({ weatherData, loading, error }) => {
   return (
     <div className='relative bg-gray-900 text-white h-[75vh] flex flex-col justify-start items-center pt-20 pb-8'>
       {/* Background Video*/}

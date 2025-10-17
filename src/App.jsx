@@ -54,7 +54,7 @@ const fetchWeather = async (cityName) => {
     return(
         <div>
             <Navbar onSearch={handleSearch} />
-            <Hero />
+            <Hero weatherData={weatherData} loading={loading} error={error} />
             <Footer />
         </div>
     );
