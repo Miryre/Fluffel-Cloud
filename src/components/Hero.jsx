@@ -17,7 +17,7 @@ const Hero = ({ weatherData, forecastData, loading, error }) => {
       <div className='relative z-10 w-full px-4 flex flex-col h-full'>
         <div className='mb-4'>
           <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold mb-3 text-center'>
-            Welcome to Fluffel Cloud
+            Welcome to fluffelcloud
           </h1>
           <p className='text-sm md:text-base lg:text-xl text-center'>
             Your easy weather forecast.

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between gap-8 max-w-7xl mx-auto">
         
         <aside className="flex-1">
-          <h2 className="text-xl md:text-2xl font-bold mb-2">Fluffel Cloud</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-2">fluffelcloud</h2>
           <p className="text-sm md:text-base">
             Your reliable weather companion
             <br />
